@@ -24,4 +24,31 @@ f.close()
 # f.read - oczyt, f.write - zapis f.readlines - odczyt wybranych lini
 # adres filmu - https://www.youtube.com/watch?v=fwMyIL6LRA8&list=PLdBHMlEKo8UcOaykMssI1_X6ui0tzTNoH&index=15
 #######################################
+#PROGRAMOWANIE OBIEKTOWE
+#PROSTY KALKULATOR Z UZYCIEM WLASNEJ CLASSY
+class calculator():
+    def dodaj(self, a, b):
+        wynik = a + b
+        print(wynik)
+
+    def odejmowanie(self, a, b):
+        wynik = a - b
+        print(wynik)
+
+    def mnozenie(self, a, b):
+        wynik = a * b
+        print(wynik)
+
+kalk = calculator()
+print("Wynik dodawania: ")
+kalk.dodaj(12,10)
+print('wynik odejmownia: ')
+kalk.odejmowanie(345, 457)
+
+kalk2 = calculator()
+print("wynik dodawania 2:")
+kalk2.dodaj(9, 5)
+print("wynik mnozenia: ")
+kalk.mnozenie(90,345)
+#-------------------------------------------------------------
 
