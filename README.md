@@ -1,3 +1,7 @@
-## Cody-do-nauki
+## Python Exercise
 
-Podstawowe proste programy w pythonie
+* if
+* while
+* simple car game using while and if
+* dictionary
+* list
